@@ -1,0 +1,281 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar img {
+    height: 30px;
+    margin:0px;
+}
+
+.navbar a {
+    font-weight: normal;
+    color: teal;
+    font-size: 150%;
+}
+
+.nav-list {
+    display: flex;
+    list-style-type: none;
+    padding-right: 30px;
+}
+
+.nav-list li a {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    color: black;
+    font-size: 100%;
+}
+
+h1{
+    color: teal;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.img1{
+    text-align: center;
+    max-width: 100%; 
+    height: auto;
+
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 500px 500px; 
+    gap: 50px; 
+    align-items: center; 
+    justify-content: center;
+    max-width: 1100px; 
+    margin: 0 auto; 
+}
+
+.grid-item {
+    padding: 20px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    width: 1000px; 
+    margin: 0 auto; 
+    gap: 50px;
+}
+.green{
+    background-color: lightseagreen;
+    color: white;
+    border-radius: 15px;
+    padding: 20px;
+    height: 300px;
+    word-spacing: 30%;
+    line-height: 270%;
+    
+
+}
+.blue{
+    background-color: rgb(72, 149, 250);
+    color: white;
+    border-radius: 15px;
+    padding: 20px;
+    height: 300px;
+    word-spacing: 30%;
+    line-height: 270%;
+
+
+}
+.black{
+    background-color:rgb(42, 45, 45);
+    color: white;
+    border-radius: 15px;
+    padding: 20px;
+    height: 300px;
+    word-spacing: 30%;
+    line-height: 270%;
+
+
+}
+.selc{
+    background-color: transparent; 
+    text-decoration: underline;
+    border: none;
+}
+
+
+a:hover{
+    text-decoration-line: none;
+    color: teal;
+}
+a{
+    text-decoration-line: none;
+    color:  gray;
+
+
+}
+.con1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    width: 1000px; 
+    margin: 0 auto; 
+    gap: 100px;
+
+
+}
+.state{
+    color: teal;
+    padding-right: 20%;
+
+}
+.logo{
+    align-content: flex-start;
+}
+
+.gen{
+    height: 500px;
+    width: 100%;
+    background-color: lightblue;
+    display: flex; 
+    justify-content: space-between; 
+    padding:20px; 
+
+} 
+
+
+
+.gen1 h2{
+    color: teal;
+    line-height: 50px;
+    padding:10px; 
+
+}
+
+.gen1 p{
+    color: gray;
+    word-spacing: 3px;
+    padding:0px; 
+
+}
+.gen1 img {
+    height: 250px;
+    width: 500px;
+
+}
+
+.tabs{
+    display: grid;
+    grid-template-columns: 220px 220px;
+    grid-template-rows: auto auto; 
+    gap: 5px;
+    padding: 0; 
+    width: 50%; 
+}
+
+.tab {
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+    color: black;
+    padding: 10px; 
+}
+
+.tab h3{
+    color: teal;
+}
+
+.tab p {
+    padding: 5%;
+}
+
+.photo-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 10px; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 20px; 
+}
+
+.photo-item {
+    text-align: left;
+    color: gray;
+    
+}
+
+.photo-item img {
+    width: 90%; 
+    height: auto; 
+    border-radius: 8px; 
+}
+
+.photo-item img:hover {
+    transform: scale(1.05);
+}
+
+
+.photo-item a {
+    text-decoration: none;
+}
+  
+
+.photo-item button{
+    border-radius: 8%;
+    border: none;
+    background-color: dodgerblue;
+    color: white;
+
+}
+
+
+
+
+
+
+
+.imp h2{
+    color: teal;
+    padding-right: 37%; 
+    padding-left: 37%;
+    text-align: center;
+}
+.imp p{
+    color: grey;
+    text-align: center;
+    padding-right: 32%; 
+    padding-left: 32%;
+}
+
+.join{text-align: center;}
+.join h2{
+    color: black;
+    padding-right: 37%; 
+    padding-left: 37%;
+
+}
+.join button{
+    border-radius: 3%;
+    border: none;
+    background-color: rgb(5, 83, 162);
+    color: white;
+    font-size: 100%;
+    padding: 1%;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: grey;
+    font-size: 60%;
+}
+
